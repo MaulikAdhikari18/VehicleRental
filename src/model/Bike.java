@@ -9,6 +9,10 @@ public class Bike extends Vehicle {
         this.engineCC = engineCC;
     }
 
+    public int getEngineCC() {
+        return engineCC;
+    }
+
     @Override
     public void displayDetails() {
         System.out.println("Bike Model: " + getModel() + " Engine: " + engineCC + "cc");

@@ -9,6 +9,10 @@ public class Car extends Vehicle {
         this.seats = seats;
     }
 
+    public int getSeats() {
+        return seats;
+    }
+
     @Override
     public void displayDetails() {
         System.out.println("Car Model: " + getModel() + " Seats: " + seats);
